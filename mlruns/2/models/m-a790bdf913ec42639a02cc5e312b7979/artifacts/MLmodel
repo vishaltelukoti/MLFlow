@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Vishal Telukoti/Desktop/L-100_Data/MLOps/MLFlow/mlruns/2/models/m-a790bdf913ec42639a02cc5e312b7979/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.1
+model_id: m-a790bdf913ec42639a02cc5e312b7979
+model_size_bytes: 1993921
+model_uuid: m-a790bdf913ec42639a02cc5e312b7979
+prompts: null
+run_id: 02840019d52a43b6a0c9ba0f8c49fac3
+utc_time_created: '2026-10-19 06:19:49.564894'
